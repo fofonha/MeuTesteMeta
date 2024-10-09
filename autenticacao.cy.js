@@ -9,7 +9,7 @@ describe('Meu teste Meta', () => {
   it('Deve autenticar e retornar status 200 ', () => {
     cy.request({
       method: 'POST',
-      url: api Url, 
+      url: apiUrl, 
            
       body: {
         scope: 'oob',
